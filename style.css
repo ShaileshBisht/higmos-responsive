@@ -168,3 +168,18 @@ section {
     margin-left: var(--space-sm);
   }
 }
+
+/* ABOUT US */
+
+.section-name {
+  text-transform: uppercase;
+  color: #bdbdbd;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
