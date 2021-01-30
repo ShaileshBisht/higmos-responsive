@@ -263,6 +263,14 @@ h2 {
   opacity: 0;
 }
 
+.stay-card:hover .stay-card__name {
+  transform: translateX(-200%);
+}
+
+.stay-card:hover .stay-card__price {
+  transform: translateX(-200%);
+}
+
 .stay-card img {
   width: 100%;
   height: 100%;
@@ -281,10 +289,12 @@ h2 {
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: var(--space-sm);
+  transition: transform 200ms ease-in-out;
 }
 
 .stay-card__price {
   font-weight: 500;
+  transition: transform 200ms ease-in-out 100ms;
 }
 
 @media (min-width: 760px) {
