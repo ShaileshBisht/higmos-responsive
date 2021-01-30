@@ -35,6 +35,13 @@ section {
   padding: var(--space-2xl) 0;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+  font-weight: 700;
+  margin: 0;
+}
+
 .container {
   max-width: 1200px;
   padding: var(--space-lg);
@@ -178,13 +185,6 @@ section {
   font-size: 0.875rem;
 }
 
-.about-us h2 {
-  font-size: 2.5rem;
-  font-family: var(--heading-font);
-  font-weight: 700;
-  margin: 0;
-}
-
 .about-us p {
   color: #828282;
   margin: 0;
@@ -215,4 +215,10 @@ section {
   .about-us__content--right img {
     order: -1;
   }
+}
+
+/* ACCOMMODATION */
+
+.accomodations__header {
+  margin: var(--space-md);
 }
