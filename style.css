@@ -198,5 +198,21 @@ section {
 .about-us__content {
   margin-top: var(--space-lg);
   display: grid;
+  gap: var(--space-xl);
+}
+
+.about-us__content--left,
+.about-us__content--right {
+  display: grid;
   gap: var(--space-lg);
+}
+
+@media (min-width: 760px) {
+  .about-us__content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-us__content--right img {
+    order: -1;
+  }
 }
