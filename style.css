@@ -366,3 +366,9 @@ strong {
   color: #bdbdbd;
   font-size: 0.75rem;
 }
+
+@media (min-width: 760px) {
+  .feedback {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
