@@ -148,3 +148,14 @@ section {
     padding-right: 0;
   }
 }
+
+@media (min-width: 1020px) {
+  .booking {
+    display: flex;
+  }
+
+  .booking__button {
+    margin-top: 0;
+    margin-left: 12px;
+  }
+}
