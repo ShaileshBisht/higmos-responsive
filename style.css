@@ -38,6 +38,9 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("./images/image-1.png");
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-area header {
@@ -66,6 +69,7 @@ section {
   font-family: var(--heading-font);
   font-size: 3.25rem;
   font-weight: 700;
+  max-inline-size: 620px;
 }
 
 .adventure {
@@ -91,6 +95,9 @@ section {
   color: #222;
   padding: 24px;
   border-right: 8px;
+
+  display: grid;
+  gap: 16px;
 }
 
 .booking__input label {
@@ -106,4 +113,16 @@ section {
   width: 100%;
   border: none;
   padding: 8px 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.booking__button {
+  background-color: var(--primary-color);
+  padding: 40px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 12px;
+  box-shadow: 0px 4px 20px rgba(254, 83, 3, 0.6);
 }
