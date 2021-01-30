@@ -47,6 +47,31 @@
           adventure
           <i class="material-icons">play_circle_filled</i>
         </button>
+
+        <form class="booking">
+          <div class="booking__inputs">
+            <div class="booking__input">
+              <label for="check-in">Check in</label>
+              <input type="date" id="check-in" />
+            </div>
+
+            <div class="booking__input">
+              <label for="check-out">Check out</label>
+              <input type="date" id="check-out" />
+            </div>
+
+            <div class="booking__input">
+              <label for="persons">Persons</label>
+              <select name="personNumbers" id="persons">
+                <option value="1">1 adult</option>
+                <option value="2">2 adult</option>
+                <option value="3">3 adult</option>
+                <option value="4">4 adult</option>
+              </select>
+            </div>
+          </div>
+          <button class="booking__button">book now</button>
+        </form>
       </section>
     </div>
   </body>
