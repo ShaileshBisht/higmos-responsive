@@ -222,3 +222,13 @@ h2 {
 .accomodations__header {
   margin: var(--space-md);
 }
+
+.text-button {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+}
+
+.text-button i {
+  margin-left: var(--space-sm);
+}
