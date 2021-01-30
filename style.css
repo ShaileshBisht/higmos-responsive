@@ -133,4 +133,18 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
   }
+
+  .booking__input {
+    padding: 0 24px;
+    border-left: 1px solid #e0e0e0;
+  }
+
+  .booking__input:first-child {
+    border: none;
+    padding-left: 0;
+  }
+
+  .booking__input:last-child {
+    padding-right: 0;
+  }
 }
