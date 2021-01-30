@@ -383,6 +383,7 @@ strong {
   position: fixed;
   width: 100%;
   z-index: 1;
+  transition: background-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
 }
 
 .top-header .container {
@@ -397,4 +398,5 @@ strong {
 
 .top-header--white-background path {
   fill: var(--primary-color);
+  transition: fill ease-in-out;
 }
