@@ -257,3 +257,10 @@ h2 {
   bottom: var(--space-lg);
   left: var(--space-md);
 }
+
+.stay-card__name {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: var(--space-sm);
+}
