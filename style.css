@@ -28,3 +28,9 @@ body {
     url("./images/image-1.png");
   color: white;
 }
+
+.hero-area header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
