@@ -280,3 +280,13 @@ h2 {
 .stay-card__price {
   font-weight: 500;
 }
+
+@media (min-width: 760px) {
+  .stays {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stay-card--col-2 {
+    grid-column: 1 / span 2;
+  }
+}
